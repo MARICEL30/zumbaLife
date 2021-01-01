@@ -211,12 +211,18 @@ body {
 .spotify-podcast {
     
     display: block;
+    margin: 0 auto;
     z-index: 4;
     width: 100vw;
     padding: 20px;
     background: #BD5573;
 }
 
+
+.spotify-podcast iframe {
+
+    margin: 50px 0;
+}
 
 
 .pic-minicontainer {
