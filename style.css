@@ -131,7 +131,17 @@ body {
     -webkit-animation: downarrow 0.6s infinite alternate ease-in-out;
     border-top: 2em solid #fa8072;
 }
+   
+
+
+.header-container:after {
     
+    content: "";
+    font-weight: bold;
+     z-index: 2;
+}
+
+
  
 #section-texcontainer {
     
@@ -215,7 +225,7 @@ body {
     z-index: 4;
     width: 100vw;
     padding: 20px;
-    background: #BD5573;
+    background: #916E78;
 }
 
 
